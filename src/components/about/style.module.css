@@ -1,0 +1,14 @@
+.about_section {
+  padding: var(--space-l);
+  max-width: 85%;
+  @media (max-width: 700px) {
+    max-width: 100%;
+  }
+}
+
+.button {
+  border: 1px solid var(--border-color);
+  color: var(--border-color);
+  background-color: var(--button-bg-color-dark);
+  padding: var(--space-s) var(--space-l);
+}

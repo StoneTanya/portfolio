@@ -1,0 +1,60 @@
+.questionnaire_section {
+  display: flex;
+  padding: var(--space-l);
+  gap: 2rem;
+  @media (min-width: 701px) {
+    flex-direction: column;
+  }
+}
+
+.name {
+  font-family: var(--font-family-title-name);
+  color: var(--accent-color);
+}
+
+.contact_list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list_item {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding-top: 1rem;
+}
+
+.button {
+  background-color: var(--buttons-color);
+  font-size: 1.6rem;
+  color: var(--white-color);
+  padding: 1rem 3rem;
+  border: none;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.photo_box {
+  max-width: 75%;
+  @media (max-width: 700px) {
+    max-width: 40%;
+    max-height: 50%;
+  }
+}
+
+.photo {
+  border-radius: 35%;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.contact_box {
+  max-width: 55%;
+  @media (max-width: 700px) {
+    max-width: 45%;
+  }
+}

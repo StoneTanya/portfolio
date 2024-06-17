@@ -1,0 +1,43 @@
+@import "./normalize.css";
+@import "./variables.css";
+
+@font-face {
+  font-family: "TTNorms";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/tt-norms-the-one-universal-grotesk/TTNorms-Heavy.otf");
+}
+
+@font-face {
+  font-family: "Santello";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/santello/SANTELLO.ttf");
+}
+
+@font-face {
+  font-family: "Bellota";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/Bellota_Text/BellotaText-Regular.ttf");
+}
+
+:root {
+  font-family: var(--font-family-base), Arial, sans-serif;
+  color: var(--white-color);
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 20px;
+}
+
+body {
+  margin: 0;
+  background-color: var(--background-color);
+  min-height: 100vh;
+  min-width: 320px;
+  font-size: 1.5rem;
+}
+
+main {
+  position: relative;
+}

@@ -1,0 +1,22 @@
+@media (min-width: var(--mobile-width-only)) {
+  .container {
+    max-width: 370px;
+    padding: 0 var(--space-s);
+  }
+}
+
+@media (min-width: var(--tablet-width)) {
+  .container {
+    max-width: 768px;
+    padding: 0 var(--space-m);
+  }
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1200px;
+  width: 100%;
+  border: 2px solid var(--border-color);
+  border-style: dashed;
+}

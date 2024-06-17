@@ -1,0 +1,10 @@
+.projects_section {
+  padding: var(--space-m);
+}
+.projects_table_row {
+  display: grid;
+  grid-template-columns: 20px repeat(3, minmax(100px, 300px));
+  grid-template-rows: auto;
+  gap: 20px;
+  border-bottom: 1px solid var(--border-color);
+}
