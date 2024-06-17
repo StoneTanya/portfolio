@@ -10,8 +10,8 @@ const Questionnaire = () => {
           className={styles.photo}
           src={mainPhoto}
           alt="портрет"
-          width="280"
-          height="270"
+          width="240"
+          height="230"
         />
       </div>
       <div className={styles.contact_box}>

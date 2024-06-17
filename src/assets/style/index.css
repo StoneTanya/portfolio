@@ -36,6 +36,9 @@ body {
   min-height: 100vh;
   min-width: 320px;
   font-size: 1.5rem;
+  background-image: url('../image/pictures/jess-bailey-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 main {

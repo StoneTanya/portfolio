@@ -1,11 +1,25 @@
 .main_page {
   display: grid;
-  grid-template-columns: 35% auto;
-  grid-template-rows: auto auto 22%;
+  grid-template-columns: 30% auto;
+  grid-template-rows: auto auto auto 22%;
   gap: 2rem;
 
   @media (max-width: 700px) {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto 22%;
   }
+}
+
+.skills_section {
+  grid-column-start: 2;
+  grid-column-end: 3;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projects_section {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  padding: var(--space-m);
 }

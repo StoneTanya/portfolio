@@ -1,5 +1,6 @@
 const Footer = () => {
-  return <></>;
+  return <>
+ <p>© 2019 Developed with  by Tanya</p> </>;
 };
 
 export default Footer;

@@ -9,8 +9,8 @@ const MainWrapper = () => {
     <main className={styles.main_page}>
       <Questionnaire />
       <About />
-      <SkillsList />
-      <Projects />
+      <SkillsList className={styles.skills_section}/>
+      <Projects className={styles.projects_section} />
     </main>
   );
 };

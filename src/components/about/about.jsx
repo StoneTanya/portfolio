@@ -12,7 +12,7 @@ function About() {
         сфере frontend разработки.
       </p>
       <p>
-        Сейчас я работаю с HTML, CSS, SCSS, JavaScript, React. Верстаю в
+        Сейчас я работаю с HTML, CSS, SCSS, JavaScript (ES6+), React. Верстаю в
         соответствии с концепцией Pixel Perfect/Pixel Parallel и использую БЭМ
         подход. Готова внести свой вклад в создание интересных и качественных
         продуктов :)
