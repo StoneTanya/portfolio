@@ -1,0 +1,12 @@
+.skills_wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  text-align: center;
+  width: 100%;
+}
+
+.skills_wrapper figure {
+  width: 20%;
+}

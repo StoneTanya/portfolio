@@ -13,9 +13,6 @@
 .skills_section {
   grid-column-start: 2;
   grid-column-end: 3;
-
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .projects_section {

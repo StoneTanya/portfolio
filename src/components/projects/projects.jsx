@@ -4,6 +4,8 @@ import styles from './style.module.css';
 function Projects({ className = '' }) {
   return (
     <section className={className}>
+      <h2>Portfolio</h2>
+
       {projectsList.map((project, index) => (
         <div key={index} className={styles.projects_table_row}>
 
