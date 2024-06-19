@@ -1,24 +1,28 @@
 import html from "../../assets/image/icons/icon-html.png";
 import figma from "../../assets/image/icons/figma.png";
 import react from "../../assets/image/icons/react.png";
+import css from "../../assets/image/icons/css3.svg";
 import sass from "../../assets/image/icons/icon-sass.png";
 import js from "../../assets/image/icons/icon-js.png";
 import bootstrap from "../../assets/image/icons/bootstrap.png";
-// import webpack from '../../assets/image/icons/';
+import webpack from '../../assets/image/icons/webpack.svg';
+import vitejs from '../../assets/image/icons/vitejs.svg';
+import typescript from '../../assets/image/icons/typescript.svg';
+
 export const skills = [
   {
     src: html,
     description: "Основы HTML5, синтаксис, семантика, доступность, кроссбраузерная адаптивная валидная верстка, микро и макроразметка, верстка под React",
     alt: "значок html",
   },
-  // {
-  //   src: css,
-  //   discription: "text text",
-  //   alt: "значок css",
-  // },
+  {
+    src: css,
+    description: "CSS3: основы, синтаксис, переменные. Сетки (Flex, Grid), CSS-анимации.",
+    alt: "значок css",
+  },
   {
     src: sass,
-    description: "CSS3 + препроцессор Sass/SCSS, LESS, PostCSS: основы, синтаксис. Сетки (Flex, Grid), CSS-анимации. Bootstrap, Material UI. БЭМ.",
+    description: " Препроцессоры Sass/SCSS, LESS, PostCSS.  Bootstrap, Material UI. БЭМ.",
     alt: "значок sass",
   },
   {
@@ -28,24 +32,24 @@ export const skills = [
   },
   {
     src: react,
-    description: "React-hooks, React-router, JSX и CSS-in-JS, MobX. Базово: SSR, изучаю Next.js",
+    description: "React-Hooks, React-router, JSX и CSS-in-JS, MobX. Базово: SSR, изучаю Next.js",
     alt: "значок библиотеки react js",
   },
-  // {
-  //   src: webpack,
-  //   description: "Запуск и базовая настройка",
-  //   alt: "значок сборщика webpack",
-  // },
-    // {
-  //   src: vite,
-  //   description: "Запуск и настройка конфигурации",
-  //   alt: "значок vitejs",
-  // },
-      // {
-  //   src: typescript,
-  //   description: "Базовые знания, в процессе изучения",
-  //   alt: "значок typescript",
-  // },
+  {
+    src: webpack,
+    description: "Webpack. Запуск и базовая настройка",
+    alt: "значок сборщика webpack",
+  },
+  {
+    src: vitejs,
+    description: "Vite JS. Запуск и настройка конфигурации",
+    alt: "значок vitejs",
+  },
+  {
+    src: typescript,
+    description: "Базовые знания, в процессе изучения",
+    alt: "значок typescript",
+  },
   {
     src: bootstrap,
     description: "text text",

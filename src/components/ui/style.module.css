@@ -1,0 +1,27 @@
+.button {
+  display: block;
+  font-size: var(--text-size-base);
+  max-width: fit-content;
+  text-align: center;
+  padding: 1rem 2rem;
+  /* color: var(--white-color); */
+  /* background-color: var(--accent-color); */
+  text-align: center;
+  /* border-radius: 100px; */
+  text-decoration: none;
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease-out,
+    box-shadow 0.2s ease-out;
+
+  /* &:hover {
+    background-color: var(--button-hover-color);
+  }
+
+  &:active {
+    background-color: var(--button-hover-color);
+    box-shadow: none;
+  } */
+}
