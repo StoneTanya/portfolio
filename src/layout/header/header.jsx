@@ -14,7 +14,7 @@ const Header = () => {
           <ul className={styles.nav_list}>
             {links.map((item, index) => (
               <li key={index}>
-                <span>01</span>
+                <span>{index + 1}</span>
                 <div></div>
                 <span>{item}</span>
               </li>

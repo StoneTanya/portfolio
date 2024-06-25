@@ -14,6 +14,7 @@ function SkillsList({ className = '' }) {
           </figure>
         ))}
       </div>
+      <h3>Вспомогательные технологии и инструменты</h3>
       <div className={styles.skills_wrapper}>
         {additionalSkills.map((skill, index) => (
           <li key={index}>

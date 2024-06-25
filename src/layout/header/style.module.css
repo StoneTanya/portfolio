@@ -42,9 +42,11 @@
 }
 
 .title {
-  font-size: 3.75rem;
+  font-size: 4.7rem;
   letter-spacing: 0.1rem;
   line-height: 100%;
+  padding-right: 8rem;
+  margin-bottom: var(--space-xl);
 }
 
 .wrapper {

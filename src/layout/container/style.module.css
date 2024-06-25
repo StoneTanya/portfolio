@@ -34,7 +34,7 @@
   height: 100vh;
   position: relative;
   padding: var(--space-xxl);
-  gap: var(--space-xxl);
+  gap: var(--space-l);
 
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));

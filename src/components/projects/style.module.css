@@ -1,19 +1,70 @@
 .projects_table {
-  background-color: var(--background-color);
-  backdrop-filter: blur(8px);
   margin-bottom: var(--space-xxl);
 }
 
 .projects_table_row {
   display: grid;
-  grid-template-columns: 20px repeat(3, minmax(100px, 300px));
-  grid-template-rows: auto;
-  /* gap: 20px; */
-  border-bottom: 1px solid var(--white-color);
-
+  grid-template-columns: 1fr minmax(100px, 200px);
+  grid-template-rows: 50px auto fit-content;
+  gap: var(--space-m);
   padding: var(--space-m) var(--space-m);
+
+  background-color: var(--background-color);
+  backdrop-filter: blur(8px);
+  margin-bottom: var(--space-xl);
+}
+
+.title {
+  grid-row: 1 / span 1;
+  grid-column: 1 / span 2;
+}
+
+.description {
+  grid-row: 2 / span 1;
+  grid-column: 1 / span 1;
 }
 
 .stack {
-  color: var(--highlight-color);
+  grid-row: 3 / span 1;
+  grid-column: 1 / span 2;
+
+  border: 1px solid var(--accent-color);
+  padding: var(--space-s);
+}
+
+.buttons {
+  grid-row: 2 / span 1;
+  grid-column: 2 / span 1;
+
+  display: flex;
+  flex-flow: column;
+  gap: var(--space-m);
+}
+
+button {
+  padding: var(--space-s) var(--space-m);
+  margin: 0 var(--space-m);
+}
+
+.button_git {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  border: none;
+  cursor: pointer;
+  &:hover {
+    border: 1px solid var(--accent-color);
+    background-color: var(--white-color);
+    color: var(--accent-color);
+  }
+}
+
+.button_visit {
+  background-color: inherit;
+  color: var(--accent-color);
+  border: none;
+  cursor: pointer;
+  &:hover {
+    border: 1px solid var(--white-color);
+    color: var(--white-color);
+  }
 }

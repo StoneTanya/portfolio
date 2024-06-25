@@ -11,9 +11,9 @@ function About() {
           разработки.
         </p>
         <p>
-          Сейчас я работаю с HTML, CSS, SCSS, JavaScript (ES6+), React. Верстаю в соответствии с
-          концепцией Pixel Perfect/Pixel Parallel и использую БЭМ подход. Готова внести свой вклад в
-          создание интересных и качественных продуктов :)
+          Сейчас я работаю, в основном, с HTML, CSS, SCSS, JavaScript (ES6+), React, Vite. Могу
+          верстать в соответствии с концепцией Pixel Perfect/Pixel Parallel и использую БЭМ подход.
+          Готова внести свой вклад в создание интересных и качественных продуктов!
         </p>
       </div>
       <button className={styles.button}>Написать мне</button>
