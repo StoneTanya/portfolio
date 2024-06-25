@@ -5,8 +5,17 @@
   justify-content: start;
   text-align: center;
   width: 100%;
+  background-color: var(--background-color);
+  padding: var(--space-m);
+  backdrop-filter: blur(8px);
+  margin-bottom: var(--space-xxl);
 }
 
 .skills_wrapper figure {
   width: 20%;
+}
+
+li {
+  list-style: none;
+  padding-right: var(--space-m);
 }

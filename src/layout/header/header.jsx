@@ -1,16 +1,28 @@
-import styles from "./style.module.css";
+import styles from './style.module.css';
+import About from '../../components/about/about';
 
+const links = ['SKILLS', 'PROJECTS', 'CONTACTS'];
 const Header = () => {
   return (
-    <header className={styles.header}>
-      <nav className={styles.nav}>
-        <ul className={styles.nav_list}>
-          <li><a href="#">Обо мне</a></li>
-          <li><a href="#">Мои работы</a></li>
-          <li><a href="#">Контакты</a></li>
-        </ul>
-      </nav>
-    </header>
+    <div className={styles.wrapper}>
+      <h1 className={styles.title}>Привет, меня зовут Таня, я - frontend разработчик.</h1>
+
+      <About />
+
+      <header className={styles.header}>
+        <nav className={styles.nav}>
+          <ul className={styles.nav_list}>
+            {links.map((item, index) => (
+              <li key={index}>
+                <span>01</span>
+                <div></div>
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      </header>
+    </div>
   );
 };
 

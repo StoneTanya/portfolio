@@ -1,13 +1,15 @@
 :root {
-  --background-color: rgba(9, 11, 13, 0.95);
-  --border-color: rgb(65, 192, 122);
-  --buttons-color: rgb(139, 182, 16);
-  --button-bg-color-dark: rgba(9, 11, 13, 0.2);
+  --background-color: rgba(48, 48, 71, 0.2);
+  /* --border-color: rgb(174, 63, 234); */
+  /* --buttons-color: rgb(174, 63, 234); */
   --white-color: rgb(255, 255, 255);
   --black-color: rgb(0, 0, 0);
-  --highlight-color: rgb(120, 98, 47);
-  --accent-color: rgb(223, 210, 31);
-  --text-size-base: 1.7rem;
+
+  --highlight-color: rgb(159, 165, 47);
+
+  --accent-color: rgb(174, 63, 234);
+
+  --text-size-base: 1.5rem;
   --font-family-titles: Santello;
   --font-family-title-name: TTNorms;
   --font-family-base: Bellota;
@@ -16,7 +18,7 @@
   --space-m: 1.5rem;
   --space-l: 2.4rem;
   --space-xl: 3rem;
-  --space-xxl: 4rem;
+  --space-xxl: 6rem;
 
   --tablet-width: 768px;
   --desktop-width: 1200px;

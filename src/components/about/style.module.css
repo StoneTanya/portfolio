@@ -1,5 +1,4 @@
 .about_section {
-  padding: var(--space-l);
   max-width: 85%;
   @media (max-width: 700px) {
     max-width: 100%;
@@ -7,13 +6,32 @@
 }
 
 .button {
-  border: 1px solid var(--border-color);
-  color: var(--border-color);
-  background-color: var(--button-bg-color-dark);
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
+  background-color: inherit;
   padding: var(--space-s) var(--space-l);
-  margin-top: var(--space-xxl);
+  margin-top: var(--space-m);
+  &:hover {
+    cursor: pointer;
+    color: var(--white-color);
+    border: 1px solid var(--white-color);
+  }
 }
 
 h1 {
   margin-bottom: var(--space-xxl);
+}
+
+.button_cv {
+  background-color: var(--accent-color);
+  font-size: 1.6rem;
+  color: var(--white-color);
+  padding: 1rem 3rem;
+  border: none;
+  margin-left: var(--space-m);
+  &:hover {
+    cursor: pointer;
+    color: var(--accent-color);
+    background-color: var(--white-color);
+  }
 }

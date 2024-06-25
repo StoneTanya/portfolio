@@ -1,0 +1,43 @@
+.parallax_full {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100px;
+
+  --tw-gradient-from-position: ;
+  --tw-gradient-to-position: ;
+  --tw-gradient-to: transparent var(--tw-gradient-to-position);
+  --tw-gradient-from: hsla(0, 0%, 100%, 0.05) var(--tw-gradient-from-position);
+
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+
+.parallax_bottom {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+}
+
+.bg_moon {
+  position: fixed;
+  width: 300px;
+  height: 300px;
+  top: 70vh;
+  left: 50vw;
+  right: calc(50%-275px);
+  z-index: 0;
+  border-radius: 9999px;
+  background-color: var(--white-color);
+}
+
+.image {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

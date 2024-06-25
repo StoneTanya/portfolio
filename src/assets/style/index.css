@@ -1,46 +1,42 @@
-@import "./normalize.css";
-@import "./variables.css";
+@import './normalize.css';
+@import './variables.css';
 
 @font-face {
-  font-family: "TTNorms";
+  font-family: 'TTNorms';
   font-weight: normal;
   font-style: normal;
-  src: url("../fonts/tt-norms-the-one-universal-grotesk/TTNorms-Heavy.otf");
+  src: url('../fonts/tt-norms-the-one-universal-grotesk/TTNorms-Heavy.otf');
 }
 
 @font-face {
-  font-family: "Santello";
+  font-family: 'Santello';
   font-weight: normal;
   font-style: normal;
-  src: url("../fonts/santello/SANTELLO.ttf");
+  src: url('../fonts/santello/SANTELLO.ttf');
 }
 
 @font-face {
-  font-family: "Bellota";
+  font-family: 'Bellota';
   font-weight: normal;
   font-style: normal;
-  src: url("../fonts/Bellota_Text/BellotaText-Regular.ttf");
+  src: url('../fonts/Bellota_Text/BellotaText-Regular.ttf');
 }
 
 :root {
   font-family: var(--font-family-base), Arial, sans-serif;
-  color: var(--white-color);
   font-weight: 400;
   font-size: 10px;
   line-height: 20px;
+  position: relative;
 }
 
 body {
   margin: 0;
-  background-color: #fad3d3;
   min-height: 100vh;
   min-width: 320px;
-  font-size: 1.5rem;
-  background-image: url('../image/pictures/jess-bailey-unsplash.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-main {
-  position: relative;
+  font-size: var(--text-size-base);
+  line-height: inherit;
+  background-color: rgb(13 13 13 /1);
+  scroll-behavior: smooth;
+  color: var(--white-color);
 }

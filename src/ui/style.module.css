@@ -1,0 +1,21 @@
+.telegram__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  font-size: var(--text-size-base);
+  font-style: italic;
+  text-decoration: none;
+  color: var(--white-color);
+  margin-bottom: 2.5rem;
+  &:hover {
+    color: var(--accent-color);
+  }
+  &:hover .telegram__icon {
+    fill: var(--accent-color);
+  }
+}
+
+.telegram__icon {
+  height: 30px;
+}

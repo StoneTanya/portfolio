@@ -1,10 +1,19 @@
+.projects_table {
+  background-color: var(--background-color);
+  backdrop-filter: blur(8px);
+  margin-bottom: var(--space-xxl);
+}
+
 .projects_table_row {
   display: grid;
-  grid-template-columns: 20px repeat(4, minmax(100px, 300px));
+  grid-template-columns: 20px repeat(3, minmax(100px, 300px));
   grid-template-rows: auto;
-  gap: 20px;
-  border-bottom: 1px solid var(--border-color);
+  /* gap: 20px; */
+  border-bottom: 1px solid var(--white-color);
 
-  padding-top: var(--space-m);
-  padding-bottom: var(--space-m);
+  padding: var(--space-m) var(--space-m);
+}
+
+.stack {
+  color: var(--highlight-color);
 }
