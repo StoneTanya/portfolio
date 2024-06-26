@@ -1,4 +1,4 @@
-import Container from "./layout/container/container";
+import Container from '../layout/container/container';
 
 function App() {
   return <Container />;

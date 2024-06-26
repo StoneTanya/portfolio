@@ -2,7 +2,7 @@
   margin-bottom: var(--space-xxl);
 
   @media (max-width: 700px) {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 
     .projects_table_row {
       grid-template-rows: 50px auto fit-content fit-content;
@@ -16,6 +16,8 @@
     .buttons {
       grid-row: 4 / span 1;
       grid-column: 1 / span 2;
+
+      flex-direction: row;
     }
 
     .stack {
@@ -62,7 +64,7 @@
   grid-column: 2 / span 1;
 
   display: flex;
-  flex-flow: column;
+  flex-direction: column;
   gap: var(--space-m);
 }
 
