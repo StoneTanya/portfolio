@@ -1,6 +1,6 @@
 .telegram__link {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   gap: 1rem;
   font-size: var(--text-size-base);

@@ -29,9 +29,19 @@ h1 {
   padding: 1rem 3rem;
   border: none;
   margin-left: var(--space-m);
+  margin-top: var(--space-m);
+
   &:hover {
     cursor: pointer;
     color: var(--accent-color);
     background-color: var(--white-color);
+  }
+}
+
+.about_description p,
+.button,
+.button_cv {
+  @media (max-width: 500px) {
+    font-size: 1.3rem;
   }
 }

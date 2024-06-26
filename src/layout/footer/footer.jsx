@@ -1,14 +1,11 @@
 import Telegram from '../../ui/telegram';
 import gitHubIcon from '../../assets/image/icons/24x-github.svg';
+import styles from './style.module.css';
 
 const Footer = () => {
   return (
-    <div>
-      <p>© 2019 Developed by Tanya Volkova</p>
-      <a href="/" target="_blank">
-        @StoneTania
-        <img src={gitHubIcon} alt="Иконка телеграмм" max-width="30" />
-      </a>
+    <div className={styles.footer}>
+      <p>© 2024 Developed by Tanya Volkova</p>
       <Telegram />
     </div>
   );

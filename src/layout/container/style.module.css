@@ -2,7 +2,6 @@
   .container {
     max-width: 370px;
     padding: 0 var(--space-s);
-    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 }
 
@@ -38,4 +37,9 @@
 
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
+
+  @media (max-width: 1020px) {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    padding: var(--space-xl);
+  }
 }

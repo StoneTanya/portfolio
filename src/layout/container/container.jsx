@@ -1,6 +1,6 @@
 import styles from './style.module.css';
 import Header from '../header/header';
-// import Footer from '../footer/footer';
+import Footer from '../footer/footer';
 import MainWrapper from '../main-wrapper/main-wrapper';
 import MultiLayerParallax from '../../components/parallax/banner/multiLayerParallax';
 
@@ -14,9 +14,9 @@ const Container = () => {
         </div>
         <div className={styles.right}>
           <MainWrapper />
+          <Footer />
         </div>
       </div>
-      {/* <Footer /> */}
     </div>
   );
 };
