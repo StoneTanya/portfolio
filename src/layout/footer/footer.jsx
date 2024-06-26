@@ -1,5 +1,4 @@
-import Telegram from '../../ui/telegram';
-import gitHubIcon from '../../assets/image/icons/24x-github.svg';
+import Telegram from '../../ui/telegram/telegram';
 import styles from './style.module.css';
 
 const Footer = () => {

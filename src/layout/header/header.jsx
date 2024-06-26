@@ -1,7 +1,13 @@
 import styles from './style.module.css';
 import About from '../../components/about/about';
+import { Link } from 'react-scroll';
 
-const links = ['SKILLS', 'PROJECTS', 'CONTACTS'];
+const links = [
+  { id: 'skills', link: 'SKILLS' },
+  { id: 'projects', link: 'PROJECTS' },
+  { id: 'contacts', link: 'CONTACTS' },
+];
+
 const Header = () => {
   return (
     <div className={styles.wrapper}>
@@ -13,11 +19,13 @@ const Header = () => {
         <nav className={styles.nav}>
           <ul className={styles.nav_list}>
             {links.map((item, index) => (
-              <li key={index}>
-                <span>{index + 1}</span>
-                <div></div>
-                <span>{item}</span>
-              </li>
+              <Link key={index} to={item.id} smooth={true} duration={500}>
+                <li>
+                  <span>{index + 1}</span>
+                  <div></div>
+                  <span>{item.link}</span>
+                </li>
+              </Link>
             ))}
           </ul>
         </nav>

@@ -1,10 +1,11 @@
 import styles from './style.module.css';
 import mainPhoto from '../../assets/image/pictures/photo.png';
+import { Element } from 'react-scroll';
 import { contactList } from './contact-list';
 
 const Questionnaire = () => {
   return (
-    <>
+    <Element id="contacts">
       <section>
         <h2>Contacts</h2>
         <div className={styles.questionnaire_section}>
@@ -27,7 +28,7 @@ const Questionnaire = () => {
           </div>
         </div>
       </section>
-    </>
+    </Element>
   );
 };
 

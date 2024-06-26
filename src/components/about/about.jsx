@@ -1,3 +1,6 @@
+import Link from '../../ui/link/link';
+import { TelegramLink } from '../../utils/utils';
+import CV from '../../assets/CV-frontend-Volkova-Tanya.pdf';
 import styles from './style.module.css';
 
 function About() {
@@ -16,10 +19,14 @@ function About() {
           Готова внести свой вклад в создание интересных и качественных продуктов!
         </p>
       </div>
-      <button className={styles.button}>Написать мне</button>
-      <button type="button" className={styles.button_cv}>
-        Резюме
-      </button>
+      <div className={styles.buttons}>
+        <Link className={styles.button} link={TelegramLink}>
+          Написать мне
+        </Link>
+        <Link className={styles.button_cv} link={CV} download>
+          Резюме
+        </Link>
+      </div>
     </section>
   );
 }

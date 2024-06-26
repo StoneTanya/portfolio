@@ -28,7 +28,7 @@
   position: fixed;
   width: 300px;
   height: 300px;
-  top: 70vh;
+  top: 75vh;
   left: 50vw;
   right: calc(50%-275px);
   z-index: 0;

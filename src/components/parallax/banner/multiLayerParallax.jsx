@@ -9,12 +9,10 @@ function MultiLayerParallax() {
     target: ref,
     offset: ['start start', 'end start'],
   });
-  // const backgroundY = useTransform(scrollYProgress, [0, 1], ['0%', '100%']);
   const moonY = useTransform(scrollYProgress, [1, 0], ['-70%', '0%']);
 
   return (
     <>
-      {/* <div ref={ref}> */}
       <motion.div style={{ y: moonY }} className={styles.bg_moon}></motion.div>
 
       <div className={styles.parallax_full}></div>
@@ -22,7 +20,6 @@ function MultiLayerParallax() {
       <div className={styles.parallax_bottom}></div>
 
       <img src={waves} alt="A flat image of waves in the horizon" className={styles.image} />
-      {/* </div> */}
     </>
   );
 }

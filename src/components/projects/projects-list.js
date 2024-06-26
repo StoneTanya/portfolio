@@ -6,6 +6,7 @@ export const projectsList = [
       'Квиз в формате викторины: 1 раунд - 10 вопросов, 2-4 варианта ответов на каждый. Вопросы и ответы (на английском языке) получены через GET-запрос к Open Trivia API JSON.',
     technologies: 'JavaScript | Vite | animejs | API | JSON | JS modules',
     link: 'https://stonetanya.github.io/Quiz/',
+    git: 'https://github.com/StoneTanya/Quiz.git',
   },
   {
     num: 2,
@@ -15,6 +16,7 @@ export const projectsList = [
     technologies:
       'JavaScript | Vite | React | axios | localization | js-cookie | react-scroll | swiper ',
     link: 'https://yana-pavlyuts.on.fleek.co/',
+    git: 'https://github.com/StoneTanya/psychologist-app.git',
   },
   {
     num: 3,
@@ -23,6 +25,7 @@ export const projectsList = [
       'Стили скомпилированны через SCSS, адаптивное меню реализовано без иcпользования JavaScript, средствами CSS (псевдоэлементы и transition).',
     technologies: 'HTML | SCSS',
     link: 'https://stonetanya.github.io/Wedding-Page/',
+    git: 'https://github.com/StoneTanya/Wedding-Page.git',
   },
   {
     num: 4,
@@ -30,5 +33,6 @@ export const projectsList = [
     description: 'Сайт собран из JS-модулей на Webpack. ',
     technologies: 'JavaScript | Webpack | JS modules ',
     link: 'https://margolen.github.io/',
+    git: 'https://github.com/StoneTanya/Fitness-and-Health-Blog.git',
   },
 ];
